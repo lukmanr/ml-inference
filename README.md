@@ -40,6 +40,6 @@ installing CUDA drivers if necessary.
     git clone https://github.com/tensorflow/tensorflow
     cd tensorflow
     git checkout r1.9
-    bazel build --config=opt tensorflow/tools/graph_transforms:transform_graph
-    bazel build --config=opt tensorflow/tools/graph_transforms:summarize_graph
+    bazel build tensorflow/tools/graph_transforms:transform_graph
+    bazel build tensorflow/tools/graph_transforms:summarize_graph
 ```
